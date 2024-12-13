@@ -3,7 +3,6 @@ Static analysis tool for payment logic verification.
 
 ## Contents
 - [Overview](#overview)
-- [Why Aegis?](#why-aegis)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Core Features](#core-features)
