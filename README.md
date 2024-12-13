@@ -24,7 +24,7 @@ Coming soon
 ## Core Features
 
 ### Static Analysis Engine
-- [ ] Parse TypeScript code using Stripe's SDK
+- [ ] Parse TypeScript code
 - [ ] Track Stripe API method calls and usage patterns
 - [ ] Verify proper async/await and Promise handling
 - [ ] Detect common integration anti-patterns
@@ -46,13 +46,13 @@ Coming soon
 
 ## Implementation Details
 - **Written in Scala**
-- **Nix for reproducibility**
-    - Nix Flake provided for hermetic builds
-    - [devenv](https://devenv.sh) for flexible and reproducible dev environments
+- **Uses Nix for reproducibility**
+    - Nix Flake provided for hermetic builds and installations
+    - [devenv](https://devenv.sh) for flexible and reproducible development environments
 
 ## Requirements
 - TypeScript codebase using `stripe-node`
 - TypeScript >= 4.x
 - Node.js >= 16.x 
 
-> **Note**: Currently, Aegis is only planned to support TypeScript. JavaScript support may be added in a future release.
+> **Note**: Currently, Aegis only plans to support TypeScript. JavaScript support may be added in the future.
